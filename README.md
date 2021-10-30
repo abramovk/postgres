@@ -39,14 +39,14 @@ docker run -d --name postgres \
     -e POSTGRES_MULTIPLE_DATABASES=db1,db2,db3 \
     -p 5432:5432 \
     -v postgres-volume:/var/lib/postgresql/data \
-    abramovk/postgres:12-latest
+    abramovk/postgres:latest
 ```
 
 ## docker-compose
 
 ```text
   postgres:
-    image: abramovk/postgres:12-latest
+    image: abramovk/postgres:latest
     environment:
       POSTGRES_USER: u$er
       POSTGRES_PASSWORD: pa$$w0rd
