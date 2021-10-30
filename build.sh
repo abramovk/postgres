@@ -17,7 +17,7 @@ if [[ $major == 14* ]]; then
     push="docker push abramovk/postgres:latest"
 fi
 
-docker build --build-arg POSTGRES_VERSION=$major.$minor -t abramovk/postgres:$major.$minor.$build -t abramovk/postgres:$major.$minor -t abramovk/postgres:$major $latest.
+docker build --no-cache --build-arg POSTGRES_VERSION=$major.$minor -t abramovk/postgres:$major.$minor.$build -t abramovk/postgres:$major.$minor -t abramovk/postgres:$major $latest.
 
 docker push abramovk/postgres:$major.$minor.$build
 docker push abramovk/postgres:$major.$minor
