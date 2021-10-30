@@ -22,4 +22,4 @@ docker build --no-cache --build-arg POSTGRES_VERSION=$major.$minor -t abramovk/p
 docker push abramovk/postgres:$major.$minor.$build
 docker push abramovk/postgres:$major.$minor
 docker push abramovk/postgres:$major
-$latest
+$push
