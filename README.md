@@ -14,18 +14,18 @@ create_second_db.sh - creates many databases when the container starts
 
 ```text
 * v12 latest:
-    - docker pull abramovk/postgres:12.8.1
-    - docker pull abramovk/postgres:12.8
+    - docker pull abramovk/postgres:12.10.1
+    - docker pull abramovk/postgres:12.10
     - docker pull abramovk/postgres:12
 
 * v13 latest:
-    - docker pull abramovk/postgres:13.4.1
-    - docker pull abramovk/postgres:13.4
+    - docker pull abramovk/postgres:13.6.1
+    - docker pull abramovk/postgres:13.6
     - docker pull abramovk/postgres:13
 
 * v14 latest:
-    - docker pull abramovk/postgres:14.0.1
-    - docker pull abramovk/postgres:14.0
+    - docker pull abramovk/postgres:14.2.1
+    - docker pull abramovk/postgres:14.2
     - docker pull abramovk/postgres:14
     - docker pull abramovk/postgres:latest
 ```
